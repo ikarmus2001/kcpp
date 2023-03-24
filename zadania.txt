@@ -12,7 +12,7 @@ Zadanie 1.1
 Napisać program który zawiera:
 - funkcję main
 - 5 innych funkcji, z czego dwie zadeklarowane jako: extern "C"
-- wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main
+- dodatkowo do wykonania w późniejszej cześci kursu: wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main
 - nazwać program: ZadMainExample.cc 
 
 
@@ -341,4 +341,5 @@ Zadanie 6.1
 Zadanie 7.1
 --------------------------------------
 - Stwórz Makefile (lub użyj cmake) do kompilacji programu (programów) z zadania 6.1
+
 
