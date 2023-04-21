@@ -12,7 +12,8 @@ Zadanie 1.1
 Napisać program który zawiera:
 - funkcję main
 - 5 innych funkcji, z czego dwie zadeklarowane jako: extern "C"
-- dodatkowo do wykonania w późniejszej cześci kursu: wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main
+- dodatkowo do wykonania w późniejszej cześci kursu: wywołując program decydujemy, 
+  które z funkcji mają zostać wykonane przez podanie listy argumentów do main
 - nazwać program: ZadMainExample.cc 
 
 
