@@ -13,6 +13,7 @@ void FunctionA()
 {
   cout <<"W funkcji FunctionA"<< endl;
   return;
+  cout << "Jestem poza?" << endl;
 }
 
 
@@ -21,7 +22,7 @@ void FunctionA()
 void FunctionB(void)
 {
   cout <<"W funkcji FunctionB"<< endl;
-  //return;
+  // return;
 }
 
 

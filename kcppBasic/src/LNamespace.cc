@@ -10,11 +10,17 @@ using namespace std;
 
 //---------------------------
 namespace nasza {
-	int k = 7;
+  int k = 7;
+  void Funkcja(){
+    cout <<"Namespace: Funkcja"<< endl;
+  }
 }
-using namespace nasza;
 //---------------------------
 
+
+void Funkcja(){
+  cout <<"Global: Funkcja"<< endl;
+}
 
 
 int main(){
@@ -26,6 +32,9 @@ int main(){
   cout << nasza::k << endl;
   cout << k << endl;
 
+  //Funkcja();          ///<< Error: global function  
+  //using namespace nasza;
+  //nasza::Funkcja();
 
 	return 0;
 }
