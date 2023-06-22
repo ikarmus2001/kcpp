@@ -1,25 +1,25 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.04.03
+ * \date 2019.04.03 v0.01, 2023.05.10 v0.02
  * \brief Strumienie w C++
- * v0.01
+ * v0.02
  */
 
 #include <iostream>
 #include <string>
 using namespace std;
 
-//Pokazanie strumienia bledow: a.out |tee -a plikWynikowy.txt 2>&1
-//Pokazanie strumienia bledow: a.out >plikWynikowy.txt 2>&1
-
+// Pokazanie strumienia bledow: a.out 2>&1 | tee -a plikWynikowy.txt
+// Pokazanie strumienia bledow: a.out >plikWynikowy.txt 2>&1
+ 
 void InputZeSpacjami(){
 
     cout <<"--------------------"<<endl;
     cout <<"Input ze spacjami (zły)"<< endl;
     cout << "Podaj tekst: ";
     string tekst;
-    getline(cin, tekst);  ///< problem
-    //cin >> tekst;         ///< ok
+    // getline(cin, tekst);  ///< problem
+    cin >> tekst;         ///< ok
     cout << tekst << endl;
 
 }
@@ -62,13 +62,13 @@ int main(){
     cout <<"Wpisales: "<< A << endl;
 
 
-    cout <<"Podaj dwie wartosci: ";
-    cin >> B >> C;
-    cout <<"Wpisales: "<< B <<"\t"<< C << endl;
-    cout <<"Wpisales: "<< B <<"\t"<< A << endl;
+    /* cout <<"Podaj dwie wartosci: ";
+     * cin >> B >> C;
+     * cout <<"Wpisales: "<< B <<"\t"<< C << endl;
+     * cout <<"Wpisales: "<< B <<"\t"<< A << endl; */
 
 
-    InputZeSpacjami();
+    // InputZeSpacjami();
     // InputZeSpacjamiPoprawny();
 
     return 0;
